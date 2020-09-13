@@ -3,7 +3,7 @@
  * Plugin Name: CookYourBest Plugin by Ramona Eid
  * Plugin URI: http://www.checklistme.com/Bio.html
  * Description: Do NOT deactivate or delete.  Necessary plugin for CookYourBest.com Website functionality.
- * Version: 0.0.01
+ * Version: 0.0.02
  * Author: Ramona Eid
  * Author URI: http://www.checklistme.com/Bio.html
  * License: GPL2
@@ -13,7 +13,7 @@
  */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
-define( 'COOKYOURBEST_VERSION', '0.0.01' );
+define( 'COOKYOURBEST_VERSION', '0.0.02' );
 
 add_action( 'init', 'cookyourbest_init' );
 
